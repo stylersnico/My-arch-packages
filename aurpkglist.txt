@@ -1,0 +1,17 @@
+aqemu
+breeze-kde4
+fluxgui
+fuse-ext2
+ike
+noson-app
+oxygen-kde4
+pdfedit-bin
+phonon-qt4-gstreamer
+shrew-vpn-client
+teamviewer12
+veeam
+veeamsnap
+vpnc-gui
+whatsapp-nativefier
+yaourt
+vmware-workstation
