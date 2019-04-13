@@ -1,4 +1,4 @@
-My-arch-packages
+My arch packages
 ================
 
 ## About this
