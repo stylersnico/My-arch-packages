@@ -27,6 +27,14 @@ Manjaro KDE 18.04 fully up to date with kernel 5.0
 
 Source: https://ownyourbits.com/2017/09/04/save-and-restore-your-arch-linux-packages/
 
+Importing GPG pubkeys:
+
+```bash
+cd /tmp
+wget https://raw.githubusercontent.com/stylersnico/My-arch-packages/master/mypubkeys.asc
+gpg --import mypubkeys.asc
+```
+
 Installing base packages:
 
 ```bash
