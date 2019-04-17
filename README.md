@@ -25,24 +25,21 @@ Manjaro KDE 18.04 fully up to date with kernel 5.0
 
 ## Installation
 
+Source: https://ownyourbits.com/2017/09/04/save-and-restore-your-arch-linux-packages/
+
 Installing base packages:
 
 ```bash
 cd /tmp
 wget https://raw.githubusercontent.com/stylersnico/My-arch-packages/master/pkglist.txt
-sudo pacman -S --needed --noconfirm < pkglist.txt
+sudo pacman -S --needed $(comm -12 <(pacman -Slq|sort) <(sort pkglist.txt) )
 ```
 
-Installing yaourt (I prefer this one):
-
-```bash
-sudo pacaur -S yaourt
-```
 
 Installing AUR packages (this will take a loonnnngggg time):
 
 ```bash
 cd /tmp
 wget https://raw.githubusercontent.com/stylersnico/My-arch-packages/master/aurpkglist.txt
-sudo pacman -S --needed --noconfirm < aurpkglist.txt
+pacaur -S --noedit --noconfirm --needed aurpkglist.txt
 ```
