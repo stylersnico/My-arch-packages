@@ -9,3 +9,4 @@ veeam
 veeamsnap
 whatsapp-nativefier
 yaourt
+tor-browser
