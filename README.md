@@ -11,7 +11,7 @@ List of installed stuff:
 - Sonos
 - Telegram / Whatsapp
 - Teamviewer 12
-- Vmware Workstation
+- Tor browser
 - Shrew SoftVPN Client for older vpn systems
 - Veeam Agent for linux
 - Etc ...
@@ -49,5 +49,5 @@ Installing AUR packages (this will take a loonnnngggg time):
 ```bash
 cd /tmp
 wget https://raw.githubusercontent.com/stylersnico/My-arch-packages/master/aurpkglist.txt
-pacaur -S --noedit --noconfirm --needed aurpkglist.txt
+cat aurpkglist.txt | xargs pacaur -S --needed --noconfirm
 ```
