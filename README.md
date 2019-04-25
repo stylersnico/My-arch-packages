@@ -8,7 +8,7 @@ List of installed stuff:
 
 - Firefox
 - Chromium
-- Sonos
+- MSFonts
 - Telegram / Whatsapp
 - Teamviewer 12
 - Tor browser
@@ -51,3 +51,7 @@ cd /tmp
 wget https://raw.githubusercontent.com/stylersnico/My-arch-packages/master/aurpkglist.txt
 cat aurpkglist.txt | xargs pacaur -S --needed --noconfirm
 ```
+## My Desktop
+
+
+![](desktop.png)
