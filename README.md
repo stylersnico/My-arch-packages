@@ -14,6 +14,7 @@ List of installed stuff:
 - Tor browser
 - Shrew SoftVPN Client for older vpn systems
 - Veeam Agent for linux
+- VeraCrypt / Keepass
 - Etc ...
 
 ## Dependencies
@@ -54,4 +55,4 @@ cat aurpkglist.txt | xargs pacaur -S --needed --noconfirm
 ## My Desktop
 
 
-![](desktop.png)
+![](desktop.jpg)
