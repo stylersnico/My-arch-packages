@@ -1,12 +1,14 @@
 breeze-kde4
 fuse-ext2
 ike
+nextcloud-client-git
 shrew-vpn-client
 sky
 spotify
 teamviewer12
+tor-browser
+ttf-ms-fonts
 veeam
 veeamsnap
 whatsapp-nativefier
 yaourt
-tor-browser
