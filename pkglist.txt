@@ -59,8 +59,10 @@ ffmpegthumbs
 file
 filelight
 filesystem
+filezilla
 findutils
 firefox
+flameshot
 flatpak
 flex
 freerdp
